@@ -1,0 +1,194 @@
+{
+  "Language": "en",
+  "Title": "RESTORE+",
+  "Subtitle": "Future Environmental and Agricultural Impacts of Brazil’s Forest Code",
+  "AppBar": {
+    "buttonDownload": "Download",
+    "buttonAbout": "About",
+    "buttonTranslate": {
+      "0": "English",
+      "1": "English",
+      "2": "Português"
+    }
+  },
+  "Resume": {
+    "part01": "This application aims to assess the trade-offs associated with the implementation of the forest restoration as per Brazilian Forest Code and to project future land use and agricultural production. All scenarios are identical from 2000 to 2020 capturing major land-use trajectories as well as production of major crops and animals. The scenarios are based on the IDCImperfect2 scenario from (",
+    "part02": "Soterroni et al., 2018",
+    "part03": ") where an imperfect illegal deforestation control takes place in the Amazon and the Cerrado biomes following a probability of Forest Code enforcement. There is no deforestation control in the rest of the country but the Atlantic Forest biome, where deforestation is not allowed from 2006 onwards to reflect more restrictive legislation (Law. 11,428/2006 known as Atlantic Forest Law). Differently from the IDCImperfect2 scenario, here all scenarios consider the Soy Moratorium (SoyM) -- a zero-deforestation agreement for soy produced and sourced from the Brazilian Amazon -- effective after 2005, and climate change shifters for global and local feedbacks applied from 2011 onwards. After 2020, the scenarios are different regarding deforestation control and restoration targets."
+  },
+  "Legend": {
+    "cardTitlePrefix": "LEGEND",
+    "cardTitleType": {
+      "SCENARIO": "SCENARIO",
+      "ATTRIBUTE": "ATTRIBUTE",
+      "BORDER": "",
+      "BACKGROUND": "BACKGROUND"
+    },
+    "cardValues": {
+      "Mata Atlântica": "Atlantic Forest",
+      "Pampa": "Pampa",
+      "Pantanal": "Pantanal",
+      "Amazônia": "Amazonia",
+      "Caatinga": "Caatinga",
+      "Cerrado": "Cerrado",
+      "Brazil": "Brazil",
+      "Norte": "North",
+      "Nordeste": "Northeast",
+      "Centro-Oeste": "Central-West",
+      "Sul": "South",
+      "Sudeste": "Southeast"
+    }
+  },
+  "Drawer": {
+    "SideContent": {
+      "scenario": {
+        "title": "Scenario",
+        "chips": {
+          "0": {
+            "name": "IDC2",
+            "label": "IDC2",
+            "description": "Baseline scenario where a partial or imperfect illegal deforestation control applied during the historical period continues in the Amazon and the Cerrado biomes up to 2050. There is no native vegetation restoration."
+          },
+          "1": {
+            "name": "FC",
+            "label": "FC",
+            "description": "Forest Code scenario where full illegal deforestation control is effective in all biomes from 2021 onwards. Areas of permanent preservation (APP) debts are fully paid via passive restoration. Part of the legal reserve (LR) debts is compensated via environmental reserve quotas (in Portuguese, Cotas de Reserva Ambiental, or CRA) (Soterroni et al., 2018) with the remaining LR debts being paid via passive restoration. The SFA is applied to the whole country. Native vegetation restoration follows the schedule defined by Brazil's National Plan for Native Vegetation Restoration (PLANAVEG), starting in 2021."
+          },
+          "2": {
+            "name": "FCnoCRA",
+            "label": "FCnoCRA",
+            "description": "Built upon FC, this scenario does not apply the CRA mechanism to compensate part of the LR debts. All the rest is identical to FC."
+          },
+          "3": {
+            "name": "FCnoSFA",
+            "label": "FCnoSFA",
+            "description": "Built upon FC, this scenario does not apply the SFA. All the rest is identical to FC."
+          },
+          "4": {
+            "name": "FCnoCRAnoSFA",
+            "label": "FCnoCRAnoSFA",
+            "description": "Built upon FC, this scenario combines the FCnoCRA and FCnoSFA, where both CRA and SFA are not applied. All the rest is identical to FC."
+          }
+        },
+        "buttons": {
+          "buttonCompare": "Compare"
+        }
+      },
+      "attribute": {
+        "title": "Attribute",
+        "chips": {
+          "0": {
+            "name": "Natural Vegetation",
+            "label": "Native Vegetation",
+            "description": "This class covers all unmanaged forests and native vegetation. Both the evergreen rain forest of Amazon, the deciduous forest of the Caatinga, and woody savannas of the Cerrado are included in this class."
+          },
+          "1": {
+            "name": "Forest Regenerated",
+            "label": "Restoration",
+            "description": "Passive forest and other native vegetation regrowth necessary to compensate legal reserve deficits."
+          },
+          "2": {
+            "name": "Planted Forest",
+            "label": "Planted Forest",
+            "description": "These are short-rotation plantations, with single or few species and uniform planting density, that are used by the wood and paper industries."
+          },
+          "3": {
+            "name": "Agriculture",
+            "label": "Agriculture",
+            "description": "Areas planted with the 18 GLOBIOM crops and areas used for livestock ranching."
+          },
+          "4": {
+            "name": "CR Carbon",
+            "label": "Carbon",
+            "description": "Carbon stock based on the above and below ground carbon map from the Brazil’s Third Emissions Inventory."
+          }
+        }
+      },
+      "border": {
+        "title": "Border",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "None",
+            "description": "Do not show borders"
+          },
+          "1": {
+            "name": "Biomes",
+            "label": "Biomes",
+            "description": "Six Brazilian Biomes"
+          },
+          "2": {
+            "name": "Brazil",
+            "label": "Brazil",
+            "description": "Brazilian territory"
+          },
+          "3": {
+            "name": "Regions",
+            "label": "Regions",
+            "description": "Brazilian regions"
+          },
+          "4": {
+            "name": "States",
+            "label": "States",
+            "description": "Brazilian states"
+          }
+        }
+      },
+      "background": {
+        "title": "Background",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "None",
+            "description": "Do now show background"
+          },
+          "1": {
+            "name": "1x1km",
+            "label": "1x1km",
+            "description": "1x1Km at Equator"
+          },
+          "2": {
+            "name": "50x50km",
+            "label": "50x50km",
+            "description": "50x50km at Equator"
+          }
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "chips": {
+          "0": {
+            "name": "Absolute values",
+            "label": "Absolute values",
+            "description": "Show absolute values"
+          },
+          "1": {
+            "name": "Change from 2020",
+            "label": "Change from 2020",
+            "description": "Compare from 2020"
+          },
+          "2": {
+            "name": "Map tooltips enabled",
+            "label": "Map tooltips enabled",
+            "description": "Show map tooltips"
+          },
+          "3": {
+            "name": "Map tooltips disabled",
+            "label": "Map tooltips disabled",
+            "description": "Show map tooltips"
+          }
+        }
+      }
+    }
+  },
+  "ReportAllBiomes": {
+    "title": "All biomes",
+    "name": "",
+    "description": "",
+    "label": "View graph with all objects",
+    "buttonClose": "Close",
+    "chart": {
+      "labelX": "Year"
+    }
+  }
+}

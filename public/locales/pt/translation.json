@@ -1,0 +1,194 @@
+{
+  "Language": "pt",
+  "Title": "RESTORE+",
+  "Subtitle": "Impactos Ambientais e Agrícolas do Código Florestal Brasileiro",
+  "AppBar": {
+    "buttonDownload": "Baixar",
+    "buttonAbout": "Sobre",
+    "buttonTranslate": {
+      "0": "Português",
+      "1": "English",
+      "2": "Português"
+    }
+  },
+  "Resume": {
+    "part01": "Esta aplicação tem como objetivo avaliar os trade-offs associados à implementação da restauração florestal de acordo com o Código Florestal Brasileiro e a produção agrícola brasileira. Todos os cenários são idênticos de 2000 a 2020, capturando as principais trajetórias de uso da terra no Brasil, bem como produção das principais culturas agrícolas e produtos de origem animal. Os cenários são baseados no cenário IDCImperfect2 de (",
+    "part02": "Soterroni et al., 2018",
+    "part03": "), que considera que há um controle imperfeito do desmatamento ilegal nos biomas Amazônia e Cerrado baseado numa probabilidade de aplicação do Código Florestal. Não há controle do desmatamento no restante do país exceto no bioma Mata Atlântica, onde o desmatamento não é permitido a partir de 2006, refletindo uma legislação mais restritiva (Lei. 11.428 / 2006 conhecida como Lei da Mata Atlântica). Diferentemente do cenário IDCImperfect2, aqui todos os cenários consideram a Moratória da Soja (SoyM) - um acordo de desmatamento zero para a soja produzida e proveniente da Amazônia brasileira - efetiva após 2005, e mudanças climáticas com efeitos globais e locais aplicados de 2011 em diante. Após 2020, os cenários são diferentes em relação às metas de controle e restauração do desmatamento."
+  },
+  "Legend": {
+    "cardTitlePrefix": "LEGENDA",
+    "cardTitleType": {
+      "SCENARIO": "CENÁRIO",
+      "ATTRIBUTE": "ATRIBUTO",
+      "BORDER": "",
+      "BACKGROUND": "SEGUNDO PLANO"
+    },
+    "cardValues": {
+      "Mata Atlântica": "Mata Atlântica",
+      "Pampa": "Pampa",
+      "Pantanal": "Pantanal",
+      "Amazônia": "Amazônia",
+      "Caatinga": "Caatinga",
+      "Cerrado": "Cerrado",
+      "Brazil": "Brasil",
+      "Norte": "Norte",
+      "Nordeste": "Nordeste",
+      "Centro-Oeste": "Centro-Oeste",
+      "Sul": "Sul",
+      "Sudeste": "Sudeste"
+    }
+  },
+  "Drawer": {
+    "SideContent": {
+      "scenario": {
+        "title": "Cenário",
+        "chips": {
+          "0": {
+            "name": "IDC2",
+            "label": "IDC2",
+            "description": "Cenário de linha de base onde ocorre o controle parcial do desmatamento ilegal nos biomas Amazônia e Cerrado durante todo o período de simulação. Não há restauração de vegetação nativa."
+          },
+          "1": {
+            "name": "FC",
+            "label": "FC",
+            "description": "Cenário do Código Florestal em que o controle total do desmatamento ilegal é efetivo em todos os biomas de 2021 em diante. As dívidas da Área de Preservação Permanente (APP) são totalmente pagas por meio de restauração passiva. Parte das dívidas de Reserva Legal (RL) é compensada por meio de Cotas de Reserva Ambiental (CRA) (Soterroni et al., 2018), com o restante das dívidas de RL sendo pagas por meio de restauração passiva. A anistia ao pequeno produtor rural é aplicada em todo o país. A restauração da vegetação nativa segue o cronograma definido pelo Plano Nacional de Restauração da Vegetação Nativa (PLANAVEG), a partir de 2021."
+          },
+          "2": {
+            "name": "FCnoCRA",
+            "label": "FCnoCRA",
+            "description": "Construído sobre o FC, este cenário não aplica o mecanismo CRA para compensar parte das dívidas de RL. Todo o resto é idêntico ao FC."
+          },
+          "3": {
+            "name": "FCnoSFA",
+            "label": "FCnoSFA",
+            "description": "Construído sobre o FC, este cenário não se aplica a anistia ao pequeno produtor rural. Todo o resto é idêntico ao FC."
+          },
+          "4": {
+            "name": "FCnoCRAnoSFA",
+            "label": "FCnoCRAnoSFA",
+            "description": "Construído sobre o FC, este cenário combina o FCnoCRA e o FCnoSFA, onde CRA e a anistia ao pequeno produtor rural não são aplicados. Todo o resto é idêntico ao FC."
+          }
+        },
+        "buttons": {
+          "buttonCompare": "Comparar"
+        }
+      },
+      "attribute": {
+        "title": "Atributos",
+        "chips": {
+          "0": {
+            "name": "Natural Vegetation",
+            "label": "Vegetação Nativa",
+            "description": "Esta classe abrange todas as florestas não manejadas e vegetação nativa. Tanto a floresta tropical perene da Amazônia, a floresta decídua da Caatinga e as savanas lenhosas do Cerrado estão incluídas nesta classe."
+          },
+          "1": {
+            "name": "Forest Regenerated",
+            "label": "Restauração",
+            "description": "Floresta passiva e rebrota de outra vegetação nativa necessária para compensar déficits de reserva legal."
+          },
+          "2": {
+            "name": "Planted Forest",
+            "label": "Floresta Plantada",
+            "description": "São plantações de curta rotação, com uma ou poucas espécies e densidade de plantio uniforme, que são utilizadas pelas indústrias de madeira e papel."
+          },
+          "3": {
+            "name": "Agriculture",
+            "label": "Agricultura",
+            "description": "Áreas plantadas com as 18 culturas GLOBIOM e áreas utilizadas para pecuária."
+          },
+          "4": {
+            "name": "CR Carbon",
+            "label": "Carbono",
+            "description": "Estoque de carbono com base no mapa de carbono acima e abaixo do solo do Terceiro Inventário de Emissões do Brasil."
+          }
+        }
+      },
+      "border": {
+        "title": "Borda",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "Nenhuma",
+            "description": "Não mostrar bordas"
+          },
+          "1": {
+            "name": "Biomes",
+            "label": "Biomas",
+            "description": "Seis biomas brasileiros"
+          },
+          "2": {
+            "name": "Brazil",
+            "label": "Brasil",
+            "description": "Território brasileiro"
+          },
+          "3": {
+            "name": "Regions",
+            "label": "Regiões",
+            "description": "Regiões do Brasil"
+          },
+          "4": {
+            "name": "States",
+            "label": "Estados",
+            "description": "Estados do Brasil"
+          }
+        }
+      },
+      "background": {
+        "title": "Segundo plano",
+        "chips": {
+          "0": {
+            "name": "None",
+            "label": "Nenhum",
+            "description": "Sem informações em segundo plano"
+          },
+          "1": {
+            "name": "1x1km",
+            "label": "1x1km",
+            "description": "1x1Km no Equador"
+          },
+          "2": {
+            "name": "50x50km",
+            "label": "50x50km",
+            "description": "50x50km no Equador"
+          }
+        }
+      },
+      "settings": {
+        "title": "Configurações",
+        "chips": {
+          "0": {
+            "name": "Absolute values",
+            "label": "Valores absolutos",
+            "description": "Mostrar valores absolutos"
+          },
+          "1": {
+            "name": "Change from 2020",
+            "label": "Mudanças de 2020",
+            "description": "Comparar mudanças de 2020"
+          },
+          "2": {
+            "name": "Map tooltips enabled",
+            "label": "Mostrar valores no mapa",
+            "description": "Mostrar valores no mapa"
+          },
+          "3": {
+            "name": "Map tooltips disabled",
+            "label": "Não mostrar valores no mapa",
+            "description": "Mostrar valores no mapa"
+          }
+        }
+      }
+    }
+  },
+  "ReportAllBiomes": {
+    "title": "Todos os biomas",
+    "name": "",
+    "description": "",
+    "label": "Gráfico com todos os objetos",
+    "buttonClose": "Fechar",
+    "chart": {
+      "labelX": "Ano"
+    }
+  }
+}
